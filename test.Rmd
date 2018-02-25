@@ -1,9 +1,6 @@
 ---
-
 title: "thank"
-
 runtime: shiny
-
 ---
 
 
