@@ -1,0 +1,28 @@
+---
+
+title: "thank"
+
+runtime: shiny
+
+---
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y6120QOlsfU" frameborder="0" allowfullscreen></iframe>
+
+
+
+```{r, echo=FALSE, message=FALSE}
+
+DataSet1 <- read.csv("DataSet1.csv")
+
+library(ggtern)
+
+
+ggtern(data = DataSet1, aes(x = U, y = Y, z = Zr))+ 
+  geom_point(color = "green") 
+  size = 100
+  shape =12
+
+
+```

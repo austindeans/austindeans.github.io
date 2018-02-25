@@ -1,0 +1,19 @@
+name: my-website
+navbar:
+  title: My Website
+  right:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: Ternary
+    href: tern.html
+  - text: Misc
+    href: test.html
+output:
+  html_document:
+    theme: sandstone
+    highlight: espresso
+    lib_dir: site_libs
+    self_contained: no
+output_dir: _site

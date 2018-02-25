@@ -1,0 +1,27 @@
+---
+
+title: "What is Geology?"
+
+output: html_document
+
+---
+
+
+```{r, echo=F, message=F}
+
+library(ggtern)
+
+Science <- 60
+
+Puns <- 40
+
+Beer <- 40
+
+ternRmd <- data.frame(Science, Puns, Beer)
+
+ggtern(data = ternRmd, aes(x = Science, y = Puns, z = Beer))+ 
+  geom_point(size =3,
+  shape =19,
+  color = "purple")
+
+```
