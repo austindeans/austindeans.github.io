@@ -1,15 +1,13 @@
 name: my-website
 navbar:
-  title: My Website
+  title: My Apatite for Geology
   right:
   - text: Home
     href: index.html
-  - text: About
+  - text: About Me
     href: about.html
-  - text: Ternary
+  - text: My Research
     href: tern.html
-  - text: Misc
-    href: test.html
 output:
   html_document:
     theme: sandstone

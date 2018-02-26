@@ -1,24 +1,15 @@
 ---
-title: "What is Geology?"
+title: "My Research"
 output: html_document
 ---
 
+At Appalachian State, I've pursued and presented research at conferences a couple of times.
 
-```{r, echo=F, message=F}
 
-library(ggtern)
+`Birds, Dinosaurs, and Memes: Utilising a Popular Microblogging Platform for Palaeontological Education`
 
-Science <- 60
+My first research was more social, in which we took census information to determine the significance of paleontological education on a popular microblogging platform, tumblr. There is a large (~10000) collective on tumblr, so a handful of popular bloggers collected information and created a test to determine how affective the community was at education via a 20 Question, multiple choice quiz. We also asked what education or experience level people were at (No paleontology education, a bachelors, or graduate level) as well as whether or not they considered they considered themselves a part of the online community. In the end we found that there was a significant difference in the scores of non-members and members of all education levels. We created a poster and presented our findings at the 2016 Annual Conference of the Society of Vertebrate Paleontology.
 
-Puns <- 40
+`New Late Cretaceous (Early Campanian) Microfossil Fish Assemblage from the Upper Cretaceous Allison Member of the Menefee Formation of New Mexico`
 
-Beer <- 40
-
-ternRmd <- data.frame(Science, Puns, Beer)
-
-ggtern(data = ternRmd, aes(x = Science, y = Puns, z = Beer))+ 
-  geom_point(size =3,
-  shape =19,
-  color = "purple")
-
-```
+The next was a more overtly scientific. In the last year and a half, I have begun working with Dr Andy Heckert and fellow undergraduate Amanda Hendrix to study fossils from the Menefee Formation. The Menefee is Upper Cretaceous sandstone unit which displays a diverse assemblage of both marine and nonmarine animal fossils. Several fish are known (Sharks, rays, and bony fish) as well as many vertebrates, such as turtles, crocodiles, mammals, and dinosaurs. In addition to presenting at the Society of Vertebrate Paleontology 2017 conference, we are planning on presenting at the Southeastern Section of the Geological Society of America as well as the SVP 2018 meeting.
