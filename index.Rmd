@@ -20,3 +20,5 @@ ggtern(data = ternRmd, aes(x = Science, y = Puns, z = Beer))+
   color = "purple")
 
 ```
+
+`r Sys.Date()`
